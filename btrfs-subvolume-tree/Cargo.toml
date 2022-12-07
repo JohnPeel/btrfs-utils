@@ -1,0 +1,13 @@
+[package]
+name = "btrfs-subvolume-tree"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+btrfsutil-sys = { path = "../btrfsutil-sys" }
+btrfsutil = { path = "../btrfsutil" }
+
+libc = "0.2"
+ptree = "0.4"
+uuid = "1.2"
+proc-mounts = "0.3"
